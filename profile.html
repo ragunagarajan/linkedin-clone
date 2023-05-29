@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ragu | Profile</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style3.css" />
+        <link rel="icon" href="./images/logo.png" />
+        <link rel="stylesheet" href="./icons/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <!-- Header section start -->
+        <header class="nav-bar">
+            <div class="container">
+                <div class="flex-container align justify">
+                    <div class="flex-item-4">
+                        <div class="icon flex">
+                            <img src="./images/logo.png" width="10%" height="auto" />
+                            <input type="text" placeholder="Search" class="search" />
+                            <i class="fa fa-search input-icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="flex-item-7">
+                        <div class="nav-icons">
+                            <ul class="flex align justify drop-menu">
+                                <li class="nav-links">
+                                    <a href="#" onclick="homePage(event)">
+                                        <div><i class="fa fa-home" aria-hidden="true"></i></div>
+                                        <div class="ifont">Home</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-users" aria-hidden="true"></i></div>
+                                        <div class="ifont">My Network</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                                        <div class="ifont">Jobs</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-commenting" aria-hidden="true"></i></div>
+                                        <div class="ifont">Messaging</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-bell" aria-hidden="true"></i></div>
+                                        <div class="ifont">Notifications</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links drop-start">
+                                    <a href="#">
+                                        <div><img src="./images/ragudp.jpg" width="22px" style="border-radius: 50%;" class="userdp" /></div>
+                                        <div class="ifont">Me <i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                                    </a>
+                                    <div class="drop-menu-1">
+                                        <div class="profile flex align">
+                                            <img src="./images/raguprof.jpg" width="60px" class="userdp" />
+                                            <div class="drop-prof-head">
+                                                <h4 class="username">Ragupathi</h4>
+                                                <p class="user-post">Senior Front End Developer</p>
+                                            </div>
+                                        </div>
+                                        <div class="profile-btn">
+                                            <button onclick="myprofile(event)">View Profile</button>
+                                        </div>
+                                        <div class="prof-li1">
+                                            <ul>
+                                                <li><a href="#" style="font-size: 16px; font-weight: 600; color: #444141e8;">Account</a></li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-square" aria-hidden="true"></i> <span style="color: #252222c9;">Try premium for free</span></a>
+                                                </li>
+                                                <li><a href="#">Settings & privacy</a></li>
+                                                <li><a href="#">Help</a></li>
+                                                <li><a href="#">Language</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="prof-li1">
+                                            <ul>
+                                                <li><a href="#" style="font-size: 16px; font-weight: 600; color: #444141e8;">Manage</a></li>
+                                                <li><a href="#">Posts & Activity</a></li>
+                                                <li><a href="#">Jop post Account</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="prof-li12">
+                                            <ul>
+                                                <li><a href="#" onclick="logout(event)">Sign Out</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-links side">
+                                    <a href="#">
+                                        <div><i class="fa fa-th" aria-hidden="true"></i></div>
+                                        <div class="ifont">For Business <i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div class="ifont try">Try Premium free</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header section end -->
+		<div class="overlay"></div>	
+        <!-- page section start -->
+        <section class="my-profile">
+            <div class="container">
+                <div class="flex-container justify">
+                    <div class="flex-item-8">
+                        <!-- profile section srart -->
+                        <div class="profiles">
+                            <div class="back-banner back-img">
+                                <div class="edit1">
+                                    <img src="images/ragudp.jpg" width="20%" class="userdp" />
+                                    <button><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="banner-input1">
+                                <div class="details flex">
+                                    <div class="details-input">
+                                        <h3 class="username">RAGUPATHI</h3>
+                                        <h4 id="mySkill" class="user-post">Frontend Devoloper My skills are HTML5 ||CSS3 ||JAVASCRIPT</h4>
+                                        <p class="myTown">Chennai,Tamil Nadu,India.<a href="#">Contact info</a></p>
+                                        <a href="#">22 Connections</a>
+                                    </div>
+                                    <div class="current-company flex align">
+                                        <img src="images/fabi.jpg" width="22%" />
+                                        <a href="#">Fabevy</a>
+                                    </div>
+                                </div>
+                                <div class="edit2">
+                                    <button onclick="handleEle(event)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                                </div>
+                                <!-- profile form section start -->
+                                <div class="profile-box">
+                                    <div class="form-head flex justify">
+                                        <h4>Edit intro</h4>
+                                        <button onclick="hideEle(event)"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="form-bdy">
+                                        <div class="basic-info">
+                                            <p>* Indicates required</p>
+                                            <h2>Basic info</h2>
+                                        </div>
+                                        <div class="name-details">
+											<div class="fstName">
+                                            <p>First name *</p>
+                                            <input type="text" id="frmName" name="fName" class="info-form-control"/>
+											<h4 class="error-msg1 error">Please Enter your first Name</h4>
+											</div>
+											<div class="lstName">
+                                            <p>Last name *</p>
+                                            <input type="text" id="frmLstname" name="lName" class="info-form-control"/>
+											<h4 class="error-msg2 error">Please Enter Your Last Name</h4>
+											</div>
+                                            <p>Additional name *</p>
+                                            <input type="text" id="frmAdname" name="addName" />
+                                            <p>Pronouns name *</p>
+                                            <select>
+                                                <option>Please select</option>
+                                                <option>She/Her</option>
+                                                <option>He/Him</option>
+                                                <option>They/Them</option>
+                                                <option>Custom</option>
+                                            </select>
+                                            <span>Let others know how to refer to you.</span>
+                                            <p>Headline *</p>
+                                            <input type="text" value="" id="formskill" />
+                                        </div>
+                                        <div class="position-details">
+                                            <h2>Current position</h2>
+                                            <p>Position *</p>
+                                            <select>
+                                                <option>Please select</option>
+                                                <option>Trainee at Fabevy</option>
+                                            </select>
+                                        </div>
+                                        <div class="indus-details">
+                                            <div class="industry">
+                                                <p>Industry *</p>
+                                                <input type="text" id="frmInd" name="indusName" class="info-form-control"/>
+												<h4 class="error-msg2 error">Please Enter Your Job detail</h4>
+                                            </div>
+                                            <div class="edution">
+                                                <h2>Education</h2>
+                                                <p>Education *</p>
+                                                <select>
+                                                    <option>Please Select</option>
+                                                    <option>Madurai Kamaraj University</option>
+                                                </select>
+                                            </div>
+                                            <div class="country">
+                                                <h2>Location</h2>
+                                                <p>Country/Region *</p>
+                                                <input type="text" id="frmctry" name="ctryName" />
+                                            </div>
+
+                                            <div class="city">
+                                                <p>City</p>
+                                                <input type="text" value="" id="frmCty" name="ctyName" class="info-form-control"/>
+												<h4 class="error-msg2 error">Please Enter Your City Name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="save-btn">
+                                        <button onclick="saveinfo(event)">Save</button>
+                                    </div>
+                                </div>
+                                <!-- profile form section end -->
+                                <div class="prof-btn">
+                                    <button>Open to</button>
+                                    <button class="add-profile">Add profile section</button>
+                                    <button>More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- profile section end -->
+                        <!-- exprience section start -->
+                        <div class="exprience-details">
+                            <div class="current-exp flex justify">
+                                <h2>Experience</h2>
+                                <div class="add-edt-exprience">
+                                    <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                    <button onclick="exprienceEle(event)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                                </div>
+                                <!-- Exprience form section start -->
+                                <div class="exprience-box">
+                                    <div class="exprience-head flex justify">
+                                        <h4>Edit experience</h4>
+                                        <button onclick="hideExprience(event)"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="exprience-bdy">
+                                        <div class="indicates">
+                                            <p>* Indicates required</p>
+                                        </div>
+                                        <div class="title-details">
+                                            <p>Title *</p>
+                                            <input type="text" value="Trainee" />
+                                            <p>Employment type *</p>
+                                            <select>
+                                                <option>Please select</option>
+                                                <option>Full-time</option>
+                                                <option>Part-time</option>
+                                                <option>Self-employed</option>
+                                                <option>Freelance</option>
+                                                <option>Internship</option>
+                                                <option>Trainee</option>
+                                            </select>
+                                            <span>Learn more about <a href="#">employment types.</a></span>
+                                            <div class="com-input">
+                                                <p>Company name *</p>
+                                                <input type="text" value="Fabevy" class="com-input-ico" />
+                                                <img src="images/fabi.jpg" width="6%" />
+                                            </div>
+                                        </div>
+                                        <div class="city">
+                                            <p>Location</p>
+                                            <input type="text" value="Chennai, Tamil Nadu,India" />
+                                        </div>
+                                        <div class="location-type">
+                                            <p>Location type *</p>
+                                            <select>
+                                                <option>Please select</option>
+                                                <option>On-site</option>
+                                                <option>Hybrid</option>
+                                                <option>Remote</option>
+                                            </select>
+                                            <p>Pick a location type (ex: remote)</p>
+                                        </div>
+                                        <div class="indus-detail">
+                                            <p>Industry *</p>
+                                            <input type="text" value="Software Development" />
+                                            <p>LinkedIn uses industry information to provide more relevant recommendations</p>
+                                        </div>
+                                        <div class="indus-option">
+                                            <p>Learn more about <a href="#">industry options</a></p>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Description</p>
+                                            <textarea rows="5px"></textarea>
+                                            <p>0/2,000</p>
+                                        </div>
+                                        <div class="prof-headline">
+                                            <p>Profile headline</p>
+                                            <input type="text" value="Frontend Developer My skills are HTML5 || CSS3 || JAVASCRIPT" />
+                                            <p>Appears below your name at the top of the profile</p>
+                                        </div>
+                                    </div>
+                                    <div class="save-btn">
+                                        <div class="dlt-btn">
+                                            <button>Delete experience</button>
+                                        </div>
+                                        <button onclick="saveexp(event)">Save</button>
+                                    </div>
+                                </div>
+                                <!-- exprience edit form end -->
+                            </div>
+                            <div class="exprience1">
+                                <img src="images/fabi.jpg" width="6%" />
+                                <div class="exprience-input">
+                                    <h4>Trainee</h4>
+                                    <h5>Fabevy . internship</h5>
+                                    <p>Dec 2022 - Present · 6 mos</p>
+                                    <p>Chennai, Tamil Nadu, India · On-site</p>
+                                    <h5><span>Skills:</span> JavaScript · Bootstrap · GitHub · HTML5 · Css3</h5>
+                                </div>
+                            </div>
+                            <div class="exprience1">
+                                <img src="images/kvb.jpg" width="6%" />
+                                <div class="exprience-input">
+                                    <h4>Business Development Associate</h4>
+                                    <h5>Karur Vysya Bank(KVB) · Full-time</h5>
+                                    <p>Aug 2019 - Sep 2022 · 3 yrs 2 mos</p>
+                                    <p>Surandai, Tamil Nadu, India · On-site</p>
+                                    <h5><span>Skills:</span> Microsoft Office · Typewriter · Accounting · Tally ERP</h5>
+                                </div>
+                            </div>
+                            <div class="exprience1">
+                                <img src="images/mmfl.jpg" width="6%" />
+                                <div class="exprience-input">
+                                    <h4>Branch Executive</h4>
+                                    <h5>Muthoottu Mini Financiers Ltd · Full-time</h5>
+                                    <p>Apr 2018 - Aug 2019 · 1 yr 5 mos</p>
+                                    <p>Tenkasi, Tamil Nadu, India · On-site</p>
+                                    <h5><span>Skills:</span> Retail Banking · Banking · Business Development</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- experience section end -->
+
+                        <!-- education section start -->
+                        <div class="edu-detail">
+                            <div class="current-edu flex justify">
+                                <h2>Education</h2>
+                                <div class="add-edt-edu">
+                                    <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                    <button onclick="edushowEle(event)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                                </div>
+                                <!-- education  form section start -->
+                                <div class="education-box">
+                                    <div class="education-head flex justify">
+                                        <h4>Edit education</h4>
+                                        <button onclick="hideEducation(event)"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="education-bdy">
+                                        <div class="indicates">
+                                            <p>* Indicates required</p>
+                                        </div>
+                                        <div class="edu-details">
+                                            <div class="com-input">
+                                                <p>School *</p>
+                                                <input type="text" value="Madurai Kamaraj University" class="com-input-ico" />
+                                                <img src="images/msu.jpg" width="6%" />
+                                            </div>
+                                            <p>Degree</p>
+                                            <input type="text" value="Bachelor of Commerce - BCom" />
+                                            <p>Field of study</p>
+                                            <input type="text" value="Accounting" />
+                                            <div class="start-dt">
+                                                <p>Start date</p>
+                                                <div class="study-start">
+                                                    <select>
+                                                        <option>Month</option>
+                                                        <option>January</option>
+                                                        <option>February</option>
+                                                        <option>March</option>
+                                                        <option>April</option>
+                                                        <option>May</option>
+                                                        <option>June</option>
+                                                    </select>
+                                                    <select>
+                                                        <option>Year</option>
+                                                        <option>2023</option>
+                                                        <option>2022</option>
+                                                        <option>2021</option>
+                                                        <option>2020</option>
+                                                        <option>2019</option>
+                                                        <option>2018</option>
+                                                        <option>2017</option>
+                                                        <option>2016</option>
+                                                        <option>2015</option>
+                                                        <option>2014</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="end-dt">
+                                                <p>End date (or expected)</p>
+                                                <div class="study-end">
+                                                    <select>
+                                                        <option>Month</option>
+                                                        <option>January</option>
+                                                        <option>February</option>
+                                                        <option>March</option>
+                                                        <option>April</option>
+                                                        <option>May</option>
+                                                        <option>June</option>
+                                                    </select>
+                                                    <select>
+                                                        <option>Year</option>
+                                                        <option>2023</option>
+                                                        <option>2022</option>
+                                                        <option>2021</option>
+                                                        <option>2020</option>
+                                                        <option>2019</option>
+                                                        <option>2018</option>
+                                                        <option>2017</option>
+                                                        <option>2016</option>
+                                                        <option>2015</option>
+                                                        <option>2014</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grade">
+                                            <p>Grade</p>
+                                            <input type="text" />
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Activities and societies</p>
+                                            <textarea rows="4px" placeholder="Ex:Alpha Phi Omega, MarchingBand, Volleyball"></textarea>
+                                            <p>0/500</p>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Description</p>
+                                            <textarea rows="4px"></textarea>
+                                            <p>0/1,000</p>
+                                        </div>
+                                        <h3>Skills</h3>
+                                    </div>
+                                    <div class="save-btn flex justify">
+                                        <div class="dlt-btn">
+                                            <button>Delete education</button>
+                                        </div>
+                                        <button>Save</button>
+                                    </div>
+                                </div>
+                                <!-- education form section end -->
+                            </div>
+                            <div class="edu1">
+                                <img src="images/msu.jpg" width="6%" />
+                                <div class="edu-input">
+                                    <h4><a href="#">Madurai Kamaraj University</a></h4>
+                                    <h5><a href="#">Bachelor of Commerce-BCom,Accounting</a></h5>
+                                    <p><a href="#">Jun 2014 - May 2017</a></p>
+                                    <p><a href="#">Tenkasi, Tamil Nadu, India · On-site</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- education section end -->
+                        <!-- skill section srart -->
+                        <div class="skill-details">
+                            <div class="current-skill flex justify">
+                                <h2>Skills</h2>
+                                <div class="add-edt-skill">
+                                    <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                    <button><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="skill-1">
+                                <a href="#">JavaScript</a>
+                                <div class="skill-in flex">
+                                    <img src="images/fabi.jpg" width="6%" />
+                                    <p>Trainee at Fabevy</p>
+                                </div>
+                            </div>
+                            <div class="skill-1">
+                                <a href="#">Bootstrap</a>
+                                <div class="skill-in flex">
+                                    <img src="images/fabi.jpg" width="6%" />
+                                    <p>Trainee at Fabevy</p>
+                                </div>
+                            </div>
+                            <div class="skill-1">
+                                <a href="#">GitHub</a>
+                                <div class="skill-in flex">
+                                    <img src="images/fabi.jpg" width="6%" />
+                                    <p>Trainee at Fabevy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- skill section end -->
+                        <!-- skill end button section start-->
+                        <div class="show-skill-btn">
+                            <a href="#">Show all 12 skills&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- skill end button section end-->
+                    </div>
+                    <div class="flex-item-41">
+                        <div class="edt-profile">
+                            <div class="edt-profile-1 flex justify">
+                                <a href="#">Edit public profile & URL</a>
+                                <span><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="edt-profile-2 flex justify">
+                                <a href="#">
+                                    Add profile in another<br />
+                                    language
+                                </a>
+                                <span><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class="people-know">
+                            <h3>People you may know</h3>
+                            <p>From your company</p>
+                            <div class="know-person flex">
+                                <img src="images/vel.jpg" width="22%" />
+                                <div class="person-detail">
+                                    <h3>Velmurugan Seenipandian</h3>
+                                    <p>Managing Director & Founder at Fabevy Technologies</p>
+                                </div>
+                            </div>
+                            <button>Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--page section end -->
+        <script rel="javascript" src="./js/profile.js"></script>
+    </body>
+</html>

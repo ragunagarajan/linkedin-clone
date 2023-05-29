@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feed | LinkedIn</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style1.css" />
+        <link rel="icon" href="./images/logo.png" />
+        <link rel="stylesheet" href="./icons/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <!-- Header section start -->
+        <header class="nav-bar">
+            <div class="container">
+                <div class="flex-container align justify">
+                    <div class="flex-item-4">
+                        <div class="icon flex">
+                            <img src="./images/logo.png" width="10%" height="auto" />
+                            <input type="text" placeholder="Search" class="search" />
+                            <i class="fa fa-search input-icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="flex-item-7">
+                        <div class="nav-icons">
+                            <ul class="flex align justify drop-menu">
+                                <li class="nav-links">
+                                    <a href="#" onclick="homePage(event)">
+                                        <div><i class="fa fa-home" aria-hidden="true"></i></div>
+                                        <div class="ifont">Home</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-users" aria-hidden="true"></i></div>
+                                        <div class="ifont">My Network</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                                        <div class="ifont">Jobs</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-commenting" aria-hidden="true"></i></div>
+                                        <div class="ifont">Messaging</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div><i class="fa fa-bell" aria-hidden="true"></i></div>
+                                        <div class="ifont">Notifications</div>
+                                    </a>
+                                </li>
+                                <li class="nav-links drop-start">
+                                    <a href="#">
+                                        <div><img src="./images/raguprof.jpg" width="22px" style="border-radius: 50%;" class="userdp" /></div>
+                                        <div class="ifont">Me <i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                                    </a>
+                                    <div class="drop-menu-1">
+                                        <div class="profiles flex align">
+                                            <img src="./images/raguprof.jpg" width="60px" class="userdp" />
+                                            <div class="drop-prof-head">
+                                                <h4 class="username">Ragupathi P</h4>
+                                                <p class="user-post">Senior Front End Developer</p>
+                                            </div>
+                                        </div>
+                                        <div class="profile-btn">
+                                            <button onclick="myprofile(event)">View Profile</button>
+                                        </div>
+                                        <div class="prof-li1">
+                                            <ul>
+                                                <li><a href="#" style="font-size: 16px; font-weight: 600; color: #444141e8;">Account</a></li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-square" aria-hidden="true"></i> <span style="color: #252222c9;">Try premium for free</span></a>
+                                                </li>
+                                                <li><a href="#">Settings & privacy</a></li>
+                                                <li><a href="#">Help</a></li>
+                                                <li><a href="#">Language</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="prof-li1">
+                                            <ul>
+                                                <li><a href="#" style="font-size: 16px; font-weight: 600; color: #444141e8;">Manage</a></li>
+                                                <li><a href="#">Posts & Activity</a></li>
+                                                <li><a href="#">Jop post Account</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="prof-li12">
+                                            <ul>
+                                                <li><a href="#" onclick="logout(event)">Sign Out</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-links side">
+                                    <a href="#">
+                                        <div><i class="fa fa-th" aria-hidden="true"></i></div>
+                                        <div class="ifont">For Business <i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#">
+                                        <div class="ifont try">Try Premium free</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <div class="flex-container">
+                    <div class="flex-item-31">
+                        <div class="banner-box">
+                            <div class="img-pos">
+                                <div class="back-code">
+                                    <div class="back-img"></div>
+                                    <img src="./images/raguprof.jpg" width="65px" class="rel-back userdp" />
+                                </div>
+                            </div>
+                            <div class="banner-input1">
+                                <h3 class="username">Ragupathi P</h3>
+                                <p class="user-post">Senior Front End Developer</p>
+                            </div>
+                            <div class="banner-input2">
+                                <div>
+                                    <h4>Connections</h4>
+                                    <h5>Grow your network</h5>
+                                </div>
+                                <div>
+                                    <a href="#">74</a>
+                                </div>
+                                <div>
+                                    <h4>Who's viewed your profile</h4>
+                                </div>
+                                <div>
+                                    <a href="#">39</a>
+                                </div>
+                            </div>
+                            <div class="banner-input3">
+                                <h4>Access exclusive tools & insights</h4>
+                                <div class="flex">
+                                    <i class="fa fa-square" aria-hidden="true"></i>
+                                    <h5 style="text-decoration: underline; margin-left: 7px;">Try Premium for free</h5>
+                                </div>
+                            </div>
+                            <div class="banner-input4">
+                                <h5><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;My items</h5>
+                            </div>
+                        </div>
+                        <div class="banner-box2">
+                            <div class="box2">
+                                <h5>Recent</h5>
+                                <ul>
+                                    <li><span>#</span>&nbsp;&nbsp;php</li>
+                                    <li><span>#</span>&nbsp;&nbsp;mobile applications</li>
+                                    <li><span>#</span>&nbsp;&nbsp;programming</li>
+                                    <li><span>#</span>&nbsp;&nbsp;technology</li>
+                                    <li><span>#</span>&nbsp;&nbsp;music</li>
+                                </ul>
+                                <div class="banner-a">
+                                    <a href="#">Groups</a>
+                                    <div class="flex justify">
+                                        <a href="#">Events</a>
+                                        <h2>+</h2>
+                                    </div>
+                                    <a href="#">Followed Hastags</a>
+                                </div>
+                                <ul>
+                                    <li><span>#</span>&nbsp;&nbsp;php</li>
+                                    <li><span>#</span>&nbsp;&nbsp;mobile applications</li>
+                                    <li><span>#</span>&nbsp;&nbsp;programming</li>
+                                    <li class="one">Show more&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <h3>Discover more</h3>
+                        </div>
+                    </div>
+                    <div class="flex-item-6">
+                        <div class="overlay"></div>
+                        <div class="center-box1">
+                            <div class="post-dtl flex justify">
+                                <img src="./images/raguprof.jpg" class="userdp" />
+                                <button onclick="post(event)">
+                                    <input placeholder="Start a post" />
+                                </button>
+                            </div>
+                            <div class="content-icon1">
+                                <ul class="flex justify">
+                                    <li>
+                                        <a href="#"><i class="fa fa-picture-o" aria-hidden="true" style="color: #378fe9;"></i>&nbsp;&nbsp;Photo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #5f9b41;"></i>&nbsp;&nbsp;Video</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-calendar-check-o" aria-hidden="true" style="color: #c37d16;"></i>&nbsp;&nbsp;Event</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-book" aria-hidden="true" style="color: #e16745;"></i>&nbsp;&nbsp;Write article</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="post-box">
+                                <div class="prof-head flex justify-content">
+                                    <h4>Create a post</h4>
+                                    <button onclick="hidePost(event)"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="prof-img flex">
+                                    <img src="images/ragudp.jpg" class="userdp" />
+                                    <h4 class="username">RAGUPATHI P</h4>
+                                </div>
+                                <div class="cmt-text">
+                                    <textarea rows="6" placeholder="What do you want to talk about?" id="nw-pst-des"></textarea>
+                                </div>
+                                <div class="post-card flex justify-content">
+                                    <div class="post-btn">
+                                        <input type="file" id="uploadInput" />
+                                        <button onclick="onUpload(event)"><i class="fa fa-picture-o" aria-hidden="true"></i></button>
+                                        <button><i class="fa fa-youtube-play" aria-hidden="true"></i></button>
+                                        <button><i class="fa fa-file-text" aria-hidden="true"></i></button>
+                                        <button><i class="fa fa-ellipsis-h" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="send-post-btn">
+                                        <button id="snd-pst-btn">Post</button>
+                                    </div>
+                                </div>
+                                <div id="img-shw"></div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <a href="#">Sort by: <span>Top</span>&nbsp;&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="center-box2">
+                            <div class="fablog flex align-top justify">
+                                <div>
+                                    <div class="flex">
+                                        <div>
+                                            <img src="./images/fabi.jpg" width="54px" />
+                                        </div>
+                                        <div class="fab-tex">
+                                            <h3>Fabevy</h3>
+                                            <p>3,358 followers</p>
+                                            <p>1h.<i class="fa fa-globe" aria-hidden="true"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dot">
+                                    <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="fab-story">
+                                <p>Forests are green, oceans are blue – let's keep the Earth clean for me and you.</p>
+                                <p>Fabevy wishes you a happy earth day!</p>
+                                <span>...see more</span>
+                            </div>
+                        </div>
+                        <div class="tree"></div>
+                        <div class="center-box3">
+                            <div class="commentbox">
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;&nbsp;Like</a>
+                                <a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp;&nbsp;Comment</a>
+                                <a href="#"><i class="fa fa-retweet" aria-hidden="true"></i>&nbsp;&nbsp;Repost</a>
+                                <a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Send</a>
+                            </div>
+                            <div class="box3-1">
+                                <p><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Be the first to react</p>
+                            </div>
+                        </div>
+                        <div id="post-container"></div>
+                    </div>
+                    <div class="flex-item-41">
+                        <div class="sidebox-1">
+                            <div class="sidehead">
+                                <div class="flex justify align">
+                                    <h4>LinkedIn News</h4>
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <li>Here are 2023's top companies to want...</li>
+                                <p>Top news . 8,784 readers</p>
+                                <li>Meta cuts core roles; workers react</li>
+                                <p>1d ago . 35,908 readers</p>
+                                <li>Engineering colleges catch AI bug</li>
+                                <p>1d ag0 . 180 readers</p>
+                                <li>Double schoop for ice cream market</li>
+                                <p>1d ago</p>
+                                <li>Education hit hard by phishing</li>
+                                <p>1d ago</p>
+                            </div>
+                            <div class="show-btn flex align">
+                                <a href="#">Show more</a>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="sidebox-2">
+                            <div class="add">
+                                <a>Ad&nbsp;&nbsp;<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="sidebox-content1">
+                                <p>Vinoth unlock your full potential with LinkedIn Premium</p>
+                            </div>
+                            <div class="unlock flex align">
+                                <img src="./images/raguprof.jpg" width="60px" height="auto" class="userdp" />
+                                <i class="fa fa-key" aria-hidden="true"></i>
+                            </div>
+                            <div class="sidebox-content2">
+                                <p>See whos's viewed your profile in the last 90 days</p>
+                            </div>
+                            <div class="sidebox-btn">
+                                <button>Try for Free</button>
+                            </div>
+                        </div>
+                        <div class="box-footer">
+                            <div class="footer-items flex align">
+                                <a href="">About</a>
+                                <a href="">Accessibility</a>
+                                <a href="">Help Center</a>
+                            </div>
+                            <div class="footer-items flex align">
+                                <a href="">Privacy & Terms&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <a href="">Add choices</a>
+                            </div>
+                            <div class="footer-items flex align">
+                                <a href="">Advertising</a>
+                                <a href="">Business services&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="footer-items flex align">
+                                <a href="">Get the linkedIn app</a>
+                                <a href="">more</a>
+                            </div>
+                        </div>
+                        <div class="copyrights flex align">
+                            <a href="#"><img src="./images/linked.png" width="46px" /></a>
+                            <a href="#">LinkedIn corporation @ 2023</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script rel="javascript" src="./js/profile.js"></script>
+    </body>
+</html>

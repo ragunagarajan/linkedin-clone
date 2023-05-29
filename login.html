@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linkedin</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style2.css" />
+        <link rel="stylesheet" href="./icons/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="flex-container">
+                    <div class="flex-item-6">
+                        <div class="nav">
+                            <img src="./images/logos.jpg" width="140px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- form body -->
+        <section class="form-page">
+            <div class="container">
+                <div class="flex-container justify">
+                    <div class="flex-item-4">
+                        <div class="forms">
+                            <form>
+                                <div class="formhead">
+                                    <h3>Sign in</h3>
+                                    <p>Stay updated on your professional world</p>
+                                    <div class="passwrong">
+                                        <p class="wrong-mail">Please enter a valid email or password</p>
+                                    </div>
+                                </div>
+                                <div class="formbody">
+                                    <div>
+                                        <input type="tel" placeholder="Email or Phone" id="email" class="form-control" /><br />
+                                        <p class="error-msg1 error">Please Enter your Email or Phone</p>
+                                    </div>
+                                    <div>
+                                        <input type="Password" placeholder="Password" id="pass" class="form-control" /><br />
+                                        <p class="error-msg2 error">Please Enter Your Password</p>
+                                    </div>
+                                    <h6 onclick="show(event)">Show</h6>
+                                    <a href="#">Forgot password?</a> <br />
+                                    <div class="btn">
+                                        <button onclick="onsign(event)">Sign in</button>
+                                    </div>
+                                </div>
+                                <span>or</span>
+                                <div class="formfooter">
+                                    <button>New to LinkedIn? Join now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script rel="javascript" src="./js/main.js"></script>
+    </body>
+</html>
